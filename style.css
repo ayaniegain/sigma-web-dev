@@ -1,3 +1,50 @@
-*{
+body{
     background-color: plum;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+.first >h2{
+    color:  yellow;
+}
+
+div p{
+    color:  blue;
+}
+ .first{
+    background-color: red;
+    height: 80px;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+main{
+    margin: 25px;
+    background-color: aliceblue;
+}
+
+main p:first-child{
+ color: white;
+}
+
+main p:first-child:hover{
+ color: pink;
+}
+
+
+section{
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+    
+}
+
+section h2{
+    color:red;
+
 }
